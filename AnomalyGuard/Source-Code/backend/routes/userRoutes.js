@@ -1,0 +1,11 @@
+const express = require('express');
+const router = express.Router();
+const { getProfile, updateProfile, changePassword, getAllUsers, toggleSuspend } = require('../controllers/userController');
+const { protect, adminOnly } = require('../middleware/authMiddleware');
+router.use(protect);
+router.get('/profile', getProfile);
+router.put('/profile', updateProfile);
+router.put('/change-password', changePassword);
+router.get('/admin/all', adminOnly, getAllUsers);
+router.patch('/admin/:id/suspend', adminOnly, toggleSuspend);
+module.exports = router;

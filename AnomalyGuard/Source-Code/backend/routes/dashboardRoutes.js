@@ -1,0 +1,11 @@
+const express = require('express');
+const router = express.Router();
+const DashboardController = require('../controllers/DashboardController');
+const { protect, adminOnly } = require('../middleware/authMiddleware');
+router.use(protect);
+router.get('/stats', DashboardController.getStats.bind(DashboardController));
+router.get('/login-history', DashboardController.getLoginHistory.bind(DashboardController));
+router.get('/activity-chart', DashboardController.getActivityChart.bind(DashboardController));
+router.get('/hour-heatmap', DashboardController.getHourHeatmap.bind(DashboardController));
+router.get('/admin/overview', adminOnly, DashboardController.getAdminOverview.bind(DashboardController));
+module.exports = router;

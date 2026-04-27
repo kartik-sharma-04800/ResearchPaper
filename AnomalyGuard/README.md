@@ -8,8 +8,6 @@ SecureLogin - AI-Powered Anomaly Detection System
 
 **[ Research ]**
 
-Research On : An Intelligent System for Detecting Anomalous Login Behaviour
-
 ## Team Details
 
 ### Team Members:
@@ -47,7 +45,7 @@ Chitkara University Institute of Engineering & Technology
 ## Submission Details
 
 * Submitted By: **Kartik Sharma**
-* Submission Date: **[27/04/2026]**
+* Submission Date: **[28/04/2026]**
 * Submission Status: **Submitted**
 
 ---
@@ -55,3 +53,4 @@ Chitkara University Institute of Engineering & Technology
 ## Notes
 
 * This project is a collaborative effort by the above-mentioned team members.
+* The mentor is included as a co-author as per submission guidelines.

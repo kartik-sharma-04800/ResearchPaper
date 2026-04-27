@@ -1,0 +1,12 @@
+const express = require('express');
+const router  = express.Router();
+const { register, login, verifyMfa, getMe, resendMfa } = require('../controllers/authController');
+const { protect }          = require('../middleware/authMiddleware');
+const { authLimiter }      = require('../middleware/rateLimiter');
+const { extractDeviceInfo } = require('../middleware/deviceParser');
+router.post('/register',   authLimiter, register);
+router.post('/login',      authLimiter, extractDeviceInfo, login);
+router.post('/verify-mfa', authLimiter, verifyMfa);
+router.post('/resend-mfa', authLimiter, resendMfa);
+router.get('/me', protect, getMe);
+module.exports = router;
