@@ -53,4 +53,3 @@ Chitkara University Institute of Engineering & Technology
 ## Notes
 
 * This project is a collaborative effort by the above-mentioned team members.
-* The mentor is included as a co-author as per submission guidelines.
