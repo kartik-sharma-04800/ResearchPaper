@@ -2,7 +2,6 @@
 ## ML-Based Login Anomaly Detection System
 
 **Project**: AnomalyGuard - Intelligent Login Security System  
-**Conference**: ICCIMMR 2026 - IEEE Conference at PIET, Haryana  
 **Date**: April 27, 2026  
 **Status**: ✅ **PRODUCTION READY**
 
@@ -765,8 +764,6 @@ The system demonstrates that **machine learning can enhance security without sac
 
 ## Acknowledgments
 
-- **IEEE ICCIMMR 2026** - Conference submission
-- **PIET, Haryana** - Host institution
 - **scikit-learn** - ML library
 - **MongoDB** - Database
 - **React** - Frontend framework
@@ -776,7 +773,6 @@ The system demonstrates that **machine learning can enhance security without sac
 
 ## Contact & Support
 
-**Project Repository**: [GitHub Link]  
 **Documentation**: See README.md and other .md files  
 **Demo**: http://localhost:3000  
 **API Docs**: http://localhost:5000/api  

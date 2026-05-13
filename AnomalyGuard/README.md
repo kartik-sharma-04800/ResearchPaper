@@ -45,12 +45,11 @@ Chitkara University Institute of Engineering & Technology
 ## Submission Details
 
 * Submitted By: **Kartik Sharma**
-* Submission Date: **[28/04/2026]**
-* Submission Status: **Submitted**
+* Submission Date: 
+* Submission Status: 
 
 ---
 
 ## Notes
 
 * This project is a collaborative effort by the above-mentioned team members.
-* The mentor is included as a co-author as per submission guidelines.
